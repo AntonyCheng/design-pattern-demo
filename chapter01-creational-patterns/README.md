@@ -1,11 +1,11 @@
 ### 创建型模式
 
-1、工厂模式（Factory） ==> demo01-factory
+1、**工厂模式（Factory）** ==> demo01-factory
 
-2、抽象工厂模式（Abstract Factory） ==> demo02-abstract-factory
+2、**抽象工厂模式（Abstract Factory）** ==> demo02-abstract-factory
 
-3、单例模式（Singleton） ==> demo03-singleton
+3、**单例模式（Singleton）** ==> demo03-singleton
 
-4、建造者模式（Builder） ==> demo04-builder
+4、**建造者模式（Builder）** ==> demo04-builder
 
-5、原型模式（Prototype） ==> demo05-prototype
+5、**原型模式（Prototype）** ==> demo05-prototype

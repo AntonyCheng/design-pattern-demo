@@ -5,15 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>top.sharehome</groupId>
-        <artifactId>design-pattern-demo</artifactId>
+        <artifactId>chapter01-creational-patterns</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chapter01-creational-patterns</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>demo01-factory</module>
-    </modules>
+    <artifactId>demo01-factory</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
