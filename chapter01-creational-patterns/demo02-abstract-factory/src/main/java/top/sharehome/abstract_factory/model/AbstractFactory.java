@@ -2,6 +2,8 @@ package top.sharehome.abstract_factory.model;
 
 import top.sharehome.abstract_factory.model.enums.color.ColorEnum;
 import top.sharehome.abstract_factory.model.enums.shape.ShapeEnum;
+import top.sharehome.abstract_factory.model.interfaces.Color;
+import top.sharehome.abstract_factory.model.interfaces.Shape;
 
 /**
  * 抽象工厂类

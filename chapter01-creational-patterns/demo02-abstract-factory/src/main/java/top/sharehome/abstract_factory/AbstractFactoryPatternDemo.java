@@ -1,13 +1,11 @@
 package top.sharehome.abstract_factory;
 
-import top.sharehome.abstract_factory.model.AbstractFactory;
-import top.sharehome.abstract_factory.model.Color;
+import top.sharehome.abstract_factory.model.interfaces.Color;
 import top.sharehome.abstract_factory.model.FactoryProducer;
-import top.sharehome.abstract_factory.model.Shape;
+import top.sharehome.abstract_factory.model.interfaces.Shape;
 import top.sharehome.abstract_factory.model.enums.FactoryEnum;
 import top.sharehome.abstract_factory.model.enums.color.ColorEnum;
 import top.sharehome.abstract_factory.model.enums.shape.ShapeEnum;
-import top.sharehome.abstract_factory.model.factory.ShapeFactory;
 
 /**
  * 抽象工厂设计模式

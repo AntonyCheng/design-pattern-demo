@@ -1,6 +1,6 @@
 package top.sharehome.abstract_factory.model.entity.color;
 
-import top.sharehome.abstract_factory.model.Color;
+import top.sharehome.abstract_factory.model.interfaces.Color;
 
 /**
  * 红色类

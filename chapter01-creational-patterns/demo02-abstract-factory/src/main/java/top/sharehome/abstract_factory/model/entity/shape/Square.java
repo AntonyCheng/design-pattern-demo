@@ -1,6 +1,6 @@
 package top.sharehome.abstract_factory.model.entity.shape;
 
-import top.sharehome.abstract_factory.model.Shape;
+import top.sharehome.abstract_factory.model.interfaces.Shape;
 
 /**
  * 正方形类

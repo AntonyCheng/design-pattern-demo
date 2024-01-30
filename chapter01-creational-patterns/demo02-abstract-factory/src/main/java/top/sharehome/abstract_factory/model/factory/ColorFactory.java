@@ -1,8 +1,8 @@
 package top.sharehome.abstract_factory.model.factory;
 
 import top.sharehome.abstract_factory.model.AbstractFactory;
-import top.sharehome.abstract_factory.model.Color;
-import top.sharehome.abstract_factory.model.Shape;
+import top.sharehome.abstract_factory.model.interfaces.Color;
+import top.sharehome.abstract_factory.model.interfaces.Shape;
 import top.sharehome.abstract_factory.model.entity.color.Blue;
 import top.sharehome.abstract_factory.model.entity.color.Green;
 import top.sharehome.abstract_factory.model.entity.color.Red;

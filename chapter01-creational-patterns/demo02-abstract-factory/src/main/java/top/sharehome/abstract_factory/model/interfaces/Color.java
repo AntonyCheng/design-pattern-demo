@@ -1,4 +1,4 @@
-package top.sharehome.abstract_factory.model;
+package top.sharehome.abstract_factory.model.interfaces;
 
 /**
  * 颜色类
