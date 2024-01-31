@@ -6,9 +6,17 @@ package top.sharehome.abstract_factory.model.enums.color;
  * @author AntonyCheng
  */
 public enum ColorEnum {
-
+    /**
+     * 红色
+     */
     RED,
+    /**
+     * 蓝色
+     */
     BLUE,
+    /**
+     * 绿色
+     */
     GREEN
 
 }

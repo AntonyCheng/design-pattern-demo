@@ -9,11 +9,17 @@ import top.sharehome.builder.model.entity.item.ColdDrink;
  */
 
 public class Pepsi extends ColdDrink {
+    /**
+     * 百事可乐名称
+     */
     @Override
     public String name() {
-        return "Pepsi";
+        return "百事可乐";
     }
 
+    /**
+     * 百事可乐价格
+     */
     @Override
     public float price() {
         return 3.5f;

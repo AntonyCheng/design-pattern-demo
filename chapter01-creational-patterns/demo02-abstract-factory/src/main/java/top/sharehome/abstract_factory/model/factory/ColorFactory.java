@@ -21,6 +21,9 @@ public class ColorFactory extends AbstractFactory {
         return null;
     }
 
+    /**
+     * 获取颜色对象
+     */
     @Override
     public Color getColor(ColorEnum color) {
         if (color == null) {

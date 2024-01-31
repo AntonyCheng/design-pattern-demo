@@ -14,13 +14,30 @@ public class BuilderPatternDemo {
         MealBuilder mealBuilder = new MealBuilder();
 
         Meal vegMeal = mealBuilder.prepareVegMeal();
-        System.out.println("Veg Meal");
+        System.out.println("全素套餐");
         vegMeal.showItems();
-        System.out.println("Total Cost: " + vegMeal.getCost());
+        System.out.printf("总价: %.2f\n", vegMeal.getCost());
 
-        Meal nonVegMeal = mealBuilder.prepareNonVegMeal();
-        System.out.println("\n\nNon-Veg Meal");
-        nonVegMeal.showItems();
-        System.out.println("Total Cost: " + nonVegMeal.getCost());
+        System.out.println();
+
+        Meal chickenMeal = mealBuilder.prepareChickenMeal();
+        System.out.println("鸡肉套餐");
+        chickenMeal.showItems();
+        System.out.printf("总价: %.2f\n", chickenMeal.getCost());
+
+        System.out.println();
+
+        Meal allBurger = mealBuilder.prepareAllBurger();
+        System.out.println("汉堡全家桶");
+        allBurger.showItems();
+        System.out.printf("总价: %.2f\n", allBurger.getCost());
+
+        System.out.println();
+
+        Meal allColdDrink = mealBuilder.prepareAllColdDrink();
+        System.out.println("冷饮全家桶");
+        allColdDrink.showItems();
+        System.out.printf("总价: %.2f\n", allColdDrink.getCost());
+
     }
 }

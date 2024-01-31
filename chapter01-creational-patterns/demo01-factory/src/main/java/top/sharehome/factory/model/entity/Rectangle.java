@@ -9,6 +9,9 @@ import top.sharehome.factory.model.Shape;
  */
 
 public class Rectangle implements Shape {
+    /**
+     * 绘画形状
+     */
     @Override
     public void draw() {
         System.out.println("画一个长方形...");

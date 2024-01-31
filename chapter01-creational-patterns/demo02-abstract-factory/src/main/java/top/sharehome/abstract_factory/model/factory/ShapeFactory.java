@@ -16,6 +16,9 @@ import top.sharehome.abstract_factory.model.enums.shape.ShapeEnum;
  */
 public class ShapeFactory extends AbstractFactory {
 
+    /**
+     * 获取形状对象
+     */
     @Override
     public Shape getShape(ShapeEnum shape) {
         if (shape == null) {

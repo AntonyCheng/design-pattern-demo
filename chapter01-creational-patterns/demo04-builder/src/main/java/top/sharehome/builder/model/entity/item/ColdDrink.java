@@ -11,11 +11,17 @@ import top.sharehome.builder.model.interfaces.Packing;
  */
 
 public abstract class ColdDrink implements Item {
+    /**
+     * 冷饮打包方式
+     */
     @Override
     public Packing packing() {
         return new Bottle();
     }
 
+    /**
+     * 冷饮价格
+     */
     @Override
     public abstract float price();
 }

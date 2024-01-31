@@ -11,7 +11,9 @@ import top.sharehome.factory.model.entity.Square;
  */
 
 public class ShapeFactory {
-
+    /**
+     * 获取形状对象
+     */
     public Shape getShape(ShapeEnum shapeType) {
         if (shapeType == null) {
             return null;

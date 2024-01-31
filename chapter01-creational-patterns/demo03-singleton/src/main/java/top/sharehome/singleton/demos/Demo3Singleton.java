@@ -13,14 +13,20 @@ package top.sharehome.singleton.demos;
  * @author AntonyCheng
  */
 public class Demo3Singleton {
-    // 创建 Demo3Singleton 的一个对象，同时初始化它
+    /**
+     * 创建 Demo3Singleton 的一个对象，同时初始化它
+     */
     private static Demo3Singleton instance = new Demo3Singleton();
 
-    // 让构造函数为 private，这样该类就不会被实例化
+    /**
+     * 让构造函数为 private，这样该类就不会被实例化
+     */
     private Demo3Singleton() {
     }
 
-    // 当类加载时就直接返回初始化后的 instance
+    /**
+     * 当类加载时就直接返回初始化后的 instance
+     */
     public static Demo3Singleton getInstance() {
         return instance;
     }

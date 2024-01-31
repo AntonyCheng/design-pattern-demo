@@ -13,11 +13,20 @@ package top.sharehome.singleton.demos;
  * @author AntonyCheng
  */
 public class Demo2Singleton {
-    // 创建 Demo2Singleton 的一个对象，不要初始化它
+    /**
+     * 创建 Demo2Singleton 的一个对象，不要初始化它
+     */
     private static Demo2Singleton instance;
-    // 让构造函数为 private，这样该类就不会被实例化
-    private Demo2Singleton (){}
-    // 每次线程安全的情况调用 getInstance 方法时，只会在第一次调用进行实例化
+
+    /**
+     * 让构造函数为 private，这样该类就不会被实例化
+     */
+    private Demo2Singleton() {
+    }
+
+    /**
+     * 每次线程安全的情况调用 getInstance 方法时，只会在第一次调用进行实例化
+     */
     public static synchronized Demo2Singleton getInstance() {
         if (instance == null) {
             instance = new Demo2Singleton();

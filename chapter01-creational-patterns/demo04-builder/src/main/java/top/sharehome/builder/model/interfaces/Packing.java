@@ -7,5 +7,8 @@ package top.sharehome.builder.model.interfaces;
  */
 
 public interface Packing {
+    /**
+     * 打包方式名称
+     */
     public String pack();
 }

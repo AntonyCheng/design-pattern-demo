@@ -9,11 +9,17 @@ import top.sharehome.builder.model.entity.item.Burger;
  */
 
 public class ChickenBurger extends Burger {
+    /**
+     * 鸡肉汉堡名称
+     */
     @Override
     public String name() {
-        return "ChickenBurger";
+        return "鸡肉汉堡";
     }
 
+    /**
+     * 鸡肉汉堡价格
+     */
     @Override
     public float price() {
         return 27.2f;

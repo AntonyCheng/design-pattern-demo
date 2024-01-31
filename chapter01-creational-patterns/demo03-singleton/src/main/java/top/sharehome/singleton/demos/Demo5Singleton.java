@@ -23,16 +23,22 @@ package top.sharehome.singleton.demos;
  * @author AntonyCheng
  */
 public class Demo5Singleton {
-    // 使用静态内部类对该单例进行静态实例化
+    /**
+     * 使用静态内部类对该单例进行静态实例化
+     */
     private static class SingletonHolder {
         private static final Demo5Singleton INSTANCE = new Demo5Singleton();
     }
 
-    // 让构造函数为 private，这样该类就不会被实例化
+    /**
+     * 让构造函数为 private，这样该类就不会被实例化
+     */
     private Demo5Singleton() {
     }
 
-    // 由于静态内部类已经创建好了静态实例，调用 getInstance 返回即可
+    /**
+     * 由于静态内部类已经创建好了静态实例，调用 getInstance 返回即可
+     */
     public static Demo5Singleton getInstance() {
         return SingletonHolder.INSTANCE;
     }

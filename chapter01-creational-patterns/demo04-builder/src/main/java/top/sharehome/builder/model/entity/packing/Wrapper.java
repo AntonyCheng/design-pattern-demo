@@ -9,8 +9,11 @@ import top.sharehome.builder.model.interfaces.Packing;
  */
 
 public class Wrapper implements Packing {
+    /**
+     * 袋装打包方式名称
+     */
     @Override
     public String pack() {
-        return "Wrapper";
+        return "袋装";
     }
 }

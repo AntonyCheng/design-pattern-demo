@@ -11,11 +11,17 @@ import top.sharehome.builder.model.interfaces.Packing;
  */
 
 public abstract class Burger implements Item {
+    /**
+     * 汉堡打包方式
+     */
     @Override
     public Packing packing() {
         return new Wrapper();
     }
 
+    /**
+     * 汉堡价格
+     */
     @Override
     public abstract float price();
 }

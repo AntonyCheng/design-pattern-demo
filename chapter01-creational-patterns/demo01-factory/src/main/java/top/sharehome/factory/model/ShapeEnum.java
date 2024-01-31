@@ -7,9 +7,17 @@ package top.sharehome.factory.model;
  */
 
 public enum ShapeEnum {
-
+    /**
+     * 圆形
+     */
     CIRCLE,
+    /**
+     * 长方形
+     */
     RECTANGLE,
+    /**
+     * 正方形
+     */
     SQUARE
 
 }

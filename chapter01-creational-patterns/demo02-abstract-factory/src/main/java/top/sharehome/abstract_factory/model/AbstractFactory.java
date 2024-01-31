@@ -10,8 +10,14 @@ import top.sharehome.abstract_factory.model.interfaces.Shape;
  * @author AnronyCheng
  */
 public abstract class AbstractFactory {
-
+    /**
+     * 获取形状对象
+     */
     public abstract Shape getShape(ShapeEnum shape);
+
+    /**
+     * 获取颜色对象
+     */
     public abstract Color getColor(ColorEnum color);
 
 }

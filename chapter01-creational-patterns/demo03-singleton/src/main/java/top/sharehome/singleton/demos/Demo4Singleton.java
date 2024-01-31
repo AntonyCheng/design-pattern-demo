@@ -12,11 +12,19 @@ package top.sharehome.singleton.demos;
  * @author AntonyCheng
  */
 public class Demo4Singleton {
-    // 创建 Demo4Singleton 的一个可见性对象，不要初始化它
+    /**
+     * 创建 Demo4Singleton 的一个可见性对象，不要初始化它
+     */
     private volatile static Demo4Singleton instance;
-    // 让构造函数为 private，这样该类就不会被实例化
+
+    /**
+     * 让构造函数为 private，这样该类就不会被实例化
+     */
     private Demo4Singleton (){}
-    // 第一次调用 getInstance 方法时，在双重判定且线程安全的情况下实例化一次
+
+    /**
+     * 第一次调用 getInstance 方法时，在双重判定且线程安全的情况下实例化一次
+     */
     public static Demo4Singleton getInstance() {
         if (instance == null) {
             synchronized (Demo4Singleton.class) {

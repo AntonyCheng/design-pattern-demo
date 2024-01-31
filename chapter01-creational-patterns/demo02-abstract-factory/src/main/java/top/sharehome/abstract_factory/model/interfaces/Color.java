@@ -6,7 +6,9 @@ package top.sharehome.abstract_factory.model.interfaces;
  * @author AntonyCheng
  */
 public interface Color {
-
+    /**
+     * 填充颜色
+     */
     void fill();
 
 }

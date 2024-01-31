@@ -17,8 +17,14 @@ package top.sharehome.singleton.demos;
  * @author AntonyCheng
  */
 public enum Demo6Singleton {
+    /**
+     * 实例
+     */
     INSTANCE;
 
+    /**
+     * 其他方法
+     */
     public void otherMethod() {
     }
 }

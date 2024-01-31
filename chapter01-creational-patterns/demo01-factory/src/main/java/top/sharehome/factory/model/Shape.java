@@ -7,7 +7,9 @@ package top.sharehome.factory.model;
  */
 
 public interface Shape {
-
+    /**
+     * 绘画形状
+     */
     void draw();
 
 }
