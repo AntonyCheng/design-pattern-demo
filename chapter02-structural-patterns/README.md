@@ -1,6 +1,6 @@
 ### 结构型模式
 
-1、**适配器模式（Adapter）** ==> demo01-adapter
+1、**适配器模式（Adapter）** ==> demo01-adapter **【常用】**
 
 2、**桥接模式（Bridge）** ==> demo02-bridge
 
@@ -14,4 +14,4 @@
 
 7、**享元模式（Flyweight）** ==> demo07-flyweight
 
-8、**代理模式（Proxy）** ==> demo08-proxy
+8、**代理模式（Proxy）** ==> demo08-proxy **【常用】**
